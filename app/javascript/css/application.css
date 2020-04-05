@@ -1,0 +1,56 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.dancing-script{
+  font-family: 'Dancing Script', cursive !important;
+}
+
+.btn{
+  @apply shadow text-white font-bold py-2 px-4;
+}
+
+.btn-purple{
+  @apply bg-purple-500;
+}
+
+.btn-purple:hover{
+  @apply bg-purple-400;
+}
+
+.btn-pink{
+  @apply bg-pink-600;
+}
+
+.btn-pink:hover{
+  @apply bg-pink-400;
+}
+
+.btn-red{
+  @apply bg-red-600;
+}
+
+.btn-red:hover{
+  @apply bg-red-400;
+}
+
+.link-purple:hover{
+  @apply text-purple-600
+}
+
+.btn-purple:focus{
+  @apply shadow-outline outline-none bg-white;
+}
+
+.form-control{
+  @apply bg-gray-200 appearance-none border-2 border-gray-200 py-2 px-4 text-gray-700 leading-tight 
+}
+
+.form-control:focus{
+  @apply outline-none bg-white border-purple-500;
+}
+
+.form{
+  @apply bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4
+}

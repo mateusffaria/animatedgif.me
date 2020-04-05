@@ -1,0 +1,7 @@
+<div class="w-64 h-full p-1 shadow m-4 flex flex-col justify-between bg-gray-200 rounded">
+  <%= link_to (image_tag gif.image_url, class: "mx-auto"), gif, class: "block bg-block" %>
+  <div class="text-center p-2 text-sm">
+    <div class="text-gray-700">Uploaded by: <%= link_to gif.user.name, gif.user, class: "text-gray-900 hover:text-purple-700"%> </div>        
+    <%= linked_tag_list gif %>
+  </div>
+</div>

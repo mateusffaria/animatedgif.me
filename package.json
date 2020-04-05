@@ -1,0 +1,13 @@
+{
+  "name": "animatedgif_me",
+  "private": true,
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@rails/webpacker": "^5.0.1",
+    "stimulus": "^1.1.1",
+    "tailwindcss": "~1.0.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.10.3"
+  }
+}
