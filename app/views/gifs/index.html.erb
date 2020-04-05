@@ -1,3 +1,9 @@
-<div class="flex flex-wrap justify-center m-auto mt-10">
-  <%= render @gifs %>
+<div class="container">
+  <div class="flex flex-wrap justify-center m-auto mt-10">
+    <%= render @gifs %>
+  </div>
+
+  <div class="text-center w-1/4 m-auto flex flex-wrap justify-center mb-4">
+    <%== pagy_nav(@pagy) %>
+  </div>
 </div>
