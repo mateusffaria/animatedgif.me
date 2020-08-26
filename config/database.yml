@@ -12,7 +12,7 @@ default: &default
 development:
   <<: *default
   database: animated-gif-development
-  host: database
+  host: db
   username: postgres
   password: password
 
